@@ -35,7 +35,7 @@
 VSCode is suggested and  Node set up locally is needed to run the script.
 
 ## Project Status
-Project is: / _complete_ / 
+Project is: _complete_ 
 
 ## Room for Improvement
 - Turn this application into an interactive website by using HTML/CSS
