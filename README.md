@@ -29,7 +29,7 @@
 - 27 different possible "visions" of what the universe can tell about the user. 
 
 ## Screenshots
-![Example screenshot](./example.png)
+![Example screenshot](https://github.com/patricioperezib/MixedMessagesProject/blob/main/example.PNG)
 
 ## Setup
 VSCode is suggested and  Node set up locally is needed to run the script.
