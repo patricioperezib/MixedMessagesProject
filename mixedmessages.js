@@ -1,10 +1,10 @@
-// Random number generator from 0 to 2
+// Random number generator from 0 to 2.
 function randomNumber () {
     let num = Math.floor(Math.random()*3);
     return num
 };
 
-// Possible Messages of your future
+// Possible Messages of your Past, Present and Future.
 let pastMessage = ['You are more than the bad things that have happened to you in the past.', 
 'Many Clouds drifted across the skies in your life, but you acquitted yourself very nicely. You should be proud of that!',
  'Your past wasn`t easy , but the lessons you learned are valuable.'];
@@ -15,6 +15,7 @@ let futureMessage = ['In gratitude, you are looking back at everything you accom
 'There will be more positive action in your life!', 
 'A complete turnaround is on its way. Do not move on too fast to new adventures.' ];
 
+// Function that combines randomly the final message. 
 function universeSigns (){
     let yourPast= pastMessage[randomNumber()];
     let yourPresent= presentMessage[randomNumber()];
