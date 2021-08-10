@@ -5,20 +5,25 @@ function randomNumber () {
 };
 
 // Possible Messages of your future
-let messageOne = ['Hello!', 'Hi!', 'Hey!'];
-let messageTwo = ['I can see that this year', 'I can feel that this month', 'I am quite sure that this week'];
-let messageThree = ['you will find true love.', 
-'you will find a great job opportunitty.', 
-'you will get what you were waiting for so long.' ];
+let pastMessage = ['You are more than the bad things that have happened to you in the past.', 
+'Many Clouds drifted across the skies in your life, but you acquitted yourself very nicely. You should be proud of that!',
+ 'Your past wasn`t easy , but the lessons you learned are valuable.'];
+let presentMessage = ['It`s high time for honesty! It`s time to open every page and not to hide anything anymore.',
+ 'You are on the right track, so let go of all doubts. Be confident.', 
+ 'Feel the inspiration running through you and put it to good use.'];
+let futureMessage = ['In gratitude, you are looking back at everything you accomplished through hard work. Your future is full of surprises.', 
+'There will be more positive action in your life!', 
+'A complete turnaround is on its way. Do not move on too fast to new adventures.' ];
 
-function seeTheFuture (){
-    let part1= messageOne[randomNumber()];
-    let part2= messageTwo[randomNumber()];
-    let part3= messageThree[randomNumber()];
-    console.log(`${part1} ${part2} ${part3}`);
+function universeSigns (){
+    let yourPast= pastMessage[randomNumber()];
+    let yourPresent= presentMessage[randomNumber()];
+    let yourFuture= futureMessage[randomNumber()];
+    console.log(`Welcome and be ready to see what the universe is telling me about you.
+${yourPast}${yourPresent}${yourFuture}`);
 }
 
-seeTheFuture();
+universeSigns();
 
 
 
