@@ -21,7 +21,9 @@ function universeSigns (){
     let yourPresent= presentMessage[randomNumber()];
     let yourFuture= futureMessage[randomNumber()];
     console.log(`Welcome and be ready to see what the universe is telling me about you.
-${yourPast}${yourPresent}${yourFuture}`);
+${yourPast}
+${yourPresent}
+${yourFuture}`);
 }
 
 universeSigns();
